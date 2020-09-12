@@ -1,0 +1,12 @@
+variables:
+    CI_DEBUG_TRACE: "false"
+
+build:
+  variables:
+    CI_DEBUG_TRACE: "false"
+  stage: build
+  only:
+    refs:
+      - deploy
+  script:
+    - ./build_pkg.sh

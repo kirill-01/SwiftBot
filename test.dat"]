@@ -1,0 +1,4 @@
+{"procedure": "swift.system.rpc.shell", "args": ["echo}
+
+{"error":"Request body was invalid JSON.","args":[],"kwargs":{}}
+
