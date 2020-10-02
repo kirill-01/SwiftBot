@@ -4,4 +4,4 @@ err_log_*
 db*.sql
 swiftbot.sql
 libmysqlclient21_8.0.19-1ubuntu18.04_amd64.deb
-
+opt/swiftbot/lib

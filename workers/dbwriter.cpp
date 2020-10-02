@@ -85,7 +85,7 @@ void DbWriter::loadTodayOrders() {
      QString dbname;
 
     QJsonArray j_a;
-    if ( q.exec("SELECT * FROM `orders`") ) {
+    if ( q.exec("SELECT * FROM `orders` WHERE status > 1") ) {
         while ( q.next() ) {
             QJsonObject j_o;
             j_o["market_id"] = QString::number( q.value("pair_id").toUInt() );

@@ -141,7 +141,12 @@ QJsonArray OrdersStorage::getOpenOrders() {
             if ( !j.contains("exchange_name") ) {
                 j["exchange_name"] = SwiftLib::getAssets()->getMarketExchangeName( j.value("market_id").toString().toUInt() );
             }
-            ret.push_back( j );
+            if ( j.value("status").toString().toUInt() > 1 ) {
+                _index_closed_orders[ it.key() ] = it.value();
+                _index_open_orders.remove( it.key() );
+            } else {
+                ret.push_back( j );
+            }
         }
     }
     return ret;

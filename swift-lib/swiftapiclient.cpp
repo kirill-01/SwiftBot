@@ -533,7 +533,7 @@ void SwiftApiClient::onApiResponseParsed(const quint64 &uuid, const QJsonObject 
                      session->call("swiftbot.components.actions.insert", {"motin_withdraw_whitelists"+getExchangeName(), msg});
                  }
              }
-             emit addError( QJsonDocument( result ).toJson(QJsonDocument::Compact ) );
+             addError( QJsonDocument( result ).toJson(QJsonDocument::Compact ) );
          }
          result["method"] = getMethodName( method );
          registerAsyncResult( uuid, result );
@@ -571,25 +571,10 @@ void SwiftApiClient::customMethodParsers(const SwiftApiClient::AsyncMethods &met
 }
 
 void SwiftApiClient::methodState(const SwiftApiClient::AsyncMethods &method, const bool &result) {
-    return;
-    const QString& prefix("swiftbot.api.rpc."+QString::number( getExchangeId() )+".");
-        if ( _last_methods_ts.contains( method ) ) {
-            if ( QDateTime::currentSecsSinceEpoch() - _last_methods_ts.value( method ) >= 150 ) {
-                if ( result ) {
-                    session->call("swiftbot.system.apistate.method.success", QVariantList({ prefix+SwiftApiClient::getMethodName( method )}) );
-                } else {
-                    session->call("swiftbot.system.apistate.method.fail", QVariantList({ prefix+SwiftApiClient::getMethodName( method )}) );
-                }
-            }
-        } else {
-            if ( session != nullptr &&  session->isJoined() ) {
-                if ( result ) {
-                    session->call("swiftbot.system.apistate.method.success", QVariantList({ prefix+SwiftApiClient::getMethodName( method )}) );
-                } else {
-                    session->call("swiftbot.system.apistate.method.fail", QVariantList({ prefix+SwiftApiClient::getMethodName( method )}) );
-                }
-            }
-        }
+    const QString& prefix("swift.api.rpc."+QString::number( getExchangeId() )+".");
+    if ( session != nullptr &&  session->isJoined() ) {
+        session->call("swift.system.rpc.methodstate", QVariantList({result, prefix+SwiftApiClient::getMethodName( method )}) );
+    }
 
 }
 
@@ -729,6 +714,9 @@ void SwiftApiClient::unrealizedMethod(const QJsonObject &j_params, const quint64
     ret["success"] = false;
     ret["async_uuid"] = QString::number( async_uuid );
     ret["error"] = "Method not implemented";
+    ret["method"] = getMethodName( _async_dictionary.value( async_uuid ) );
+    ret["exchange_name"] = getExchangeName();
+    ret["exchange_id"] = QString::number( getExchangeId() );
     registerAsyncResult( async_uuid, ret );
 }
 

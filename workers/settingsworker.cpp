@@ -55,6 +55,12 @@ void SettingsWorker::initWorker(Wamp::Session *sess)
     });
 
 
+    sess->provide("swift.system.rpc.methodstate",[=](const QVariantList&v, const QVariantMap&m) {
+        Q_UNUSED(m)
+        const bool success = v.at(0).toBool();
+        const QString method = v.at(1).toString();
+        return true;
+    });
 
     sess->provide("swift.assets.rpc.get",[=](const QVariantList&v, const QVariantMap&m) {
         Q_UNUSED(m)
@@ -112,20 +118,10 @@ void SettingsWorker::initWorker(Wamp::Session *sess)
         return settings;
     });
 
-    sess->provide("swift.assets.rpc.accounts.set",[=](const QVariantList&v, const QVariantMap&m) {
-        Q_UNUSED(m)
-        Q_UNUSED(v)
-        const QString r( QJsonDocument( getExchangesFees() ).toJson( QJsonDocument::Compact ) );
-        return r;
-    });
-
-
-
-
-
     sess->provide("swift.assets.rpc.fee.withdraw.get",[=](const QVariantList&v, const QVariantMap&m) {
         Q_UNUSED(m)
         Q_UNUSED(v)
+
         const QString r( QJsonDocument( getCurrenciesFees() ).toJson( QJsonDocument::Compact ) );
         return r;
     });
