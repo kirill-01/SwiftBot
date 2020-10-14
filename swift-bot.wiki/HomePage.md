@@ -31,22 +31,22 @@
 
 ### List of supported exchanges
 
-| Exchange   | API status | API version | Exchange URL |
-| ------- | ------------------ | ---- | ---- |
-| [Bittrex](exchanges/bittrex.md) | :heavy_check_mark: | v1.0| https://bittrex.com |
-| [Bitfinex](exchanges/bitfinex.md)  | :heavy_check_mark: | v1.0| https://bitfinex.com |
-| [Kraken](exchanges/kraken.md)  | :heavy_check_mark: | v1.0| https://kraken.com |
-| [KuCoin](exchanges/kucoin.md)  | :heavy_check_mark: | v1.0| https://kucoin.com |
-| [zb.com](exchanges/zb.md)  | :heavy_check_mark: | v1.0| https://zb.com |
-| [Binance](exchanges/binance.md) | :heavy_check_mark: | v1.0| https://binance.com |
-| [HitBTC](exchanges/hitbtc.md)  | :heavy_check_mark: | v1.0| https://hitbtc.com |
-| [Huobi](exchanges/huobi.md) | :heavy_check_mark: | v1.0| https://huobi.com |
-| [Cex.io](exchanges/cexio.md)  | :heavy_check_mark: | v1.0| https://cex.io |
-| [Exmo](exchanges/exmo.md)  | :heavy_check_mark: | v1.0| https://exmo.me |
-| [Livecoin](exchanges/livecoin.md)  | :heavy_check_mark: | v1.0| https://livecoin.ru |
-| [OkCoin](exchanges/okcoin.md)  | :heavy_check_mark: | v1.0| https://okcoin.com |
-| [LakeBTC](exchanges/lakebtc.md) | :heavy_check_mark: | v1.0| https://lakebtc.com |
-| [LBank](exchanges/lbank.md) | :heavy_check_mark: | v1.0| https://lbank.com |
+| Exchange   | API status | API version | Withdraw whitelists | IP whitelists | Exchange URL |
+| ------- | ------------------ | ---- | ---- | ---- | ---- |
+| [Bittrex](exchanges/bittrex.md) | :heavy_check_mark: | v1.0 | :heavy_check_mark: | :heavy_check_mark: | https://bittrex.com |
+| [Bitfinex](exchanges/bitfinex.md)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://bitfinex.com |
+| [Kraken](exchanges/kraken.md)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://kraken.com |
+| [KuCoin](exchanges/kucoin.md)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://kucoin.com |
+| [zb.com](exchanges/zb.md)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://zb.com |
+| [Binance](exchanges/binance.md) | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://binance.com |
+| [HitBTC](exchanges/hitbtc.md)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://hitbtc.com |
+| [Huobi](exchanges/huobi.md) | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://huobi.com |
+| [Cex.io](exchanges/cexio.md)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://cex.io |
+| [Exmo](exchanges/exmo.md)  | :heavy_check_mark: | v1.0| :heavy_multiplication_x: | :heavy_multiplication_x: | https://exmo.me |
+| [Livecoin](exchanges/livecoin.md)  | :heavy_check_mark: | v1.0| :heavy_multiplication_x: | :heavy_check_mark: | https://livecoin.ru |
+| [OkCoin](exchanges/okcoin.md)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://okcoin.com |
+| [LakeBTC](exchanges/lakebtc.md) | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://lakebtc.com |
+| [LBank](exchanges/lbank.md) | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://lbank.com |
 
 
 ### [Security settings recommendations](exchanges_security.md)
