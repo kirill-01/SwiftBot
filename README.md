@@ -4,7 +4,7 @@ Cryptocurrency trading system
 
 ---
 
-## [Documentation](https://github.com/Wounderer/SwiftBot/blob/master/swift-bot.wiki/Home.md)
+## [Documentation](https://github.com/Wounderer/SwiftBot/blob/master/SwiftBot.wiki/Home.md)
 
 
 
