@@ -1,4 +1,4 @@
-# Requirements for system installation
+# Requirements for system instance
 
 ## Hardware
 

@@ -21,7 +21,12 @@
 
 # Very important information!
 
-### [Denial of responsibility](denial.md)
+---
+
+## [Security rules](security.md)
+
+---
+
 ### [License](LICENSE.md)
 ### [Support](Support.md)
 
@@ -77,8 +82,6 @@ By using SWIFT.bot **[API interface](api_methods.md)**, you can create your own 
 
 ---
 
-## FAQ
-
 ## API interfaces
 
 ### [Configuring API server](api_config.md)
@@ -92,7 +95,6 @@ By using SWIFT.bot **[API interface](api_methods.md)**, you can create your own 
 ## Contribution
 
 ### [Implementing new exchange API interface](implement_api.md)
-### [Join a team](join_team.md)
 
 ---
 
