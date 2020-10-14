@@ -100,8 +100,8 @@ By using SWIFT.bot **[API interface](api_methods.md)**, you can create your own 
 
 In current release, android 8.1+ is required!
 
-### [Download android app](#)
-### [Condigure android app and connect to server](#)
+### [Download android app](https://github.com/Wounderer/SwiftBot/releases/download/v2.0.2046/swift2.apk)
+### [Configure android app and connect it to server](android_manual.md)
 
 ## Contacts
 

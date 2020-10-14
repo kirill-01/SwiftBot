@@ -45,10 +45,10 @@ Crossbar.io is a heart of IPC. **Please follow the instructions on the link belo
 
 Package installation process.
 
-#### Download deb package release or [build it local](build_from_source.md)
+#### [Download deb](https://github.com/Wounderer/SwiftBot/releases/download/v2.0.2046/core.deb) package release or [build it local](build_from_source.md)
 
 ```shell script
-dpkg -i /tmp/swift-core.deb
+dpkg -i core.deb
 ```
 
 Configure system as it described here:

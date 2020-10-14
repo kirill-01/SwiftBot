@@ -15,6 +15,56 @@ mkfifo /opt/swiftbot/socket1
 
 ### Configure crossbar node
 
+In our case we need to do changes:
+
+In  transports section we can manage users and their passwords:
+Inside path **"ws"** -> **auth** -> **wampcra** -> **users**
+
+Change **someusername** and **someuserpass** to you own values and do not forget to make a changes in SWIFT.bot configuration file later!
+
+```json
+{
+               "type":"web",
+               "endpoint":{
+                  "type":"tcp",
+                  "port":8080
+               },
+               "paths":{
+                  "ws":{
+                     "type":"websocket",
+                     "auth":{
+                        "wampcra":{
+                           "type":"static",
+                           "users":{
+                              "someusername":{
+                                 "secret":"someuserpass",
+                                 "role":"wsuser"
+                              }
+                           }
+                        }
+                     },
+                     "serializers":[
+                        "cbor",
+                        "msgpack",
+                        "json"
+                     ]
+                  },
+                  "wsob":{
+                     "type":"websocket",
+                     "serializers":[
+                        "cbor",
+                        "msgpack",
+                        "json"
+                     ]
+                  },
+                  "info":{
+                     "type":"nodeinfo"
+                  }
+               }
+            }
+```
+
+
 [Read official documentation before](https://crossbar.io/docs/Node-Configuration/)
 
 ```JSON
