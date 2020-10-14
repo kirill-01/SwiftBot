@@ -1,8 +1,8 @@
 # SWIFT.bot - Automated trading system for cryptocurrency exchanges written in C++
 
-[![GitHub release](https://github.com/Wounderer/SwiftBot/wiki/https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://github.com/Wounderer/SwiftBot/wiki/https://github.com/Wounderer/SwiftBot/releases)
-[![GPLv3 license](https://github.com/Wounderer/SwiftBot/wiki/https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/Wounderer/SwiftBot/wiki/http://perso.crans.org/besson/LICENSE.html)
-[![Open Source? Yes!](https://github.com/Wounderer/SwiftBot/wiki/https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Wounderer/SwiftBot/wiki/https://github.com/Naereen/badges/)
+[![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://github.com/Wounderer/SwiftBot/releases)
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
+[![Open Source? Yes!](https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Naereen/badges/)
 
 * Designed to run on a dedicated server
 * System security and anonymity are completely in your hands
