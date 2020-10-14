@@ -23,13 +23,13 @@
 
 ---
 
-## [Security rules](security.md)
+## [Security rules](security)
 
 
 ---
 
-### [License](LICENSE.md)
-### [Support](Support.md)
+### [License](LICENSE)
+### [Support](Support)
 
 ---
 
@@ -39,23 +39,23 @@
 
 | Exchange   | API status | API version | Withdraw whitelists | IP whitelists | Exchange URL |
 | ------- | ------------------ | ---- | ---- | ---- | ---- |
-| [Bittrex](exchanges/bittrex.md) | :heavy_check_mark: | v1.0 | :heavy_check_mark: | :heavy_check_mark: | https://bittrex.com |
-| [Bitfinex](exchanges/bitfinex.md)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://bitfinex.com |
-| [Kraken](exchanges/kraken.md)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://kraken.com |
-| [KuCoin](exchanges/kucoin.md)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://kucoin.com |
-| [zb.com](exchanges/zb.md)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://zb.com |
-| [Binance](exchanges/binance.md) | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://binance.com |
-| [HitBTC](exchanges/hitbtc.md)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://hitbtc.com |
-| [Huobi](exchanges/huobi.md) | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://huobi.com |
-| [Cex.io](exchanges/cexio.md)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://cex.io |
-| [Exmo](exchanges/exmo.md)  | :heavy_check_mark: | v1.0| :heavy_multiplication_x: | :heavy_multiplication_x: | https://exmo.me |
-| [Livecoin](exchanges/livecoin.md)  | :heavy_check_mark: | v1.0| :heavy_multiplication_x: | :heavy_check_mark: | https://livecoin.ru |
-| [OkCoin](exchanges/okcoin.md)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://okcoin.com |
-| [LakeBTC](exchanges/lakebtc.md) | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://lakebtc.com |
-| [LBank](exchanges/lbank.md) | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://lbank.com |
+| [Bittrex](bittrex) | :heavy_check_mark: | v1.0 | :heavy_check_mark: | :heavy_check_mark: | https://bittrex.com |
+| [Bitfinex](bitfinex)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://bitfinex.com |
+| [Kraken](kraken)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://kraken.com |
+| [KuCoin](kucoin)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://kucoin.com |
+| [zb.com](zb)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://zb.com |
+| [Binance](binance) | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://binance.com |
+| [HitBTC](hitbtc)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://hitbtc.com |
+| [Huobi](huobi) | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://huobi.com |
+| [Cex.io](cexio)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://cex.io |
+| [Exmo](exmo)  | :heavy_check_mark: | v1.0| :heavy_multiplication_x: | :heavy_multiplication_x: | https://exmo.me |
+| [Livecoin](livecoin)  | :heavy_check_mark: | v1.0| :heavy_multiplication_x: | :heavy_check_mark: | https://livecoin.ru |
+| [OkCoin](okcoin)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://okcoin.com |
+| [LakeBTC](lakebtc) | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://lakebtc.com |
+| [LBank](lbank) | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://lbank.com |
 
 
-### [Security settings recommendations](exchanges_security.md)
+### [Security settings recommendations](exchanges_security)
 
 --- 
 
@@ -63,39 +63,39 @@
 
 Out of the box SWIFT.bot can use two main arbitrage strategies
 
-### [Classic inter-exchange arbitrage](strategies/classic.md)
-### [Statistical inter-exchange arbitrage](strategies/statistical.md)
+### [Classic inter-exchange arbitrage](classic)
+### [Statistical inter-exchange arbitrage](statistical)
 
-By using SWIFT.bot **[API interface](api_methods.md)**, you can create your own trading systems on top of the system to implement any other trading algorithms in the shortest possible time.
+By using SWIFT.bot **[API interface](api_methods)**, you can create your own trading systems on top of the system to implement any other trading algorithms in the shortest possible time.
 
 ---
 
 ## System
 
-### [Building from sources](build_from_source.md)
-### [Installation](Installation.md)
+### [Building from sources](build_from_source)
+### [Installation](Installation)
 
-### [Settings](Settings.md)
+### [Settings](Settings)
 
-### [System requirements](System_requirements.md)
+### [System requirements](System_requirements)
 
-### [Best practice](Best_practice.md)
+### [Best practice](Best_practice)
 
 ---
 
 ## API interfaces
 
-### [Configuring API server](api_config.md)
+### [Configuring API server](api_config)
 
-### [API usage examples](api_examples.md)
+### [API usage examples](api_examples)
 
-### [API reference](api_methods.md)
+### [API reference](api_methods)
 
 ---
 
 ## Contribution
 
-### [Implementing new exchange API interface](implement_api.md)
+### [Implementing new exchange API interface](implement_api)
 
 ---
 
@@ -104,7 +104,7 @@ By using SWIFT.bot **[API interface](api_methods.md)**, you can create your own 
 In current release, android 8.1+ is required!
 
 ### [Download android app](https://github.com/Wounderer/SwiftBot/releases/download/v2.0.2046/swift2.apk)
-### [Configure android app and connect it to server](android_manual.md)
+### [Configure android app and connect it to server](android_manual)
 
 ## Contacts
 
