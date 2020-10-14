@@ -1,0 +1,19 @@
+[Unit]
+Description=SwiftApiWorkerSettingsHost
+After=network.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+StandardInput=null
+StandardOutput=null
+StandardError=null
+Environment="LD_LIBRARY_PATH=/opt/swiftbot/lib"
+ExecStart=/opt/swiftbot/bin/workers -w settingshost
+ExecStop=/bin/kill -- $MAINPID
+Restart=always
+RestartSec=16
+
+[Install]
+WantedBy=multi-user.target

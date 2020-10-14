@@ -1,0 +1,7 @@
+Package: SwiftBot2
+Version: 2.0.2059
+Maintainer: cc.finance
+Architecture: amd64
+Section: misc
+Description: CCFinance cryptocurrency swift trading bot backend
+Pre-Depends: curl,certbot,nginx,php7.4,php7.4-fpm,mysql-server,composer,build-essential,python3-dev,python3-pip,libsnappy-dev

@@ -1,0 +1,28 @@
+#!/bin/bash
+file="/subdomain_name"
+#[ -f /subdomain_name ] && {
+#  export HOSTPART=$(cat "$file")
+#  [ -f /etc/nginx/sites-enabled/wampstatus ] && rm /etc/nginx/sites-enabled/wampstatus 
+#  envsubst < /opt/swiftbot/wampstatus > /etc/nginx/sites-enabled/wampstatus 
+#  chown www-data:www-data /etc/nginx/sites-enabled/wampstatus
+#}
+echo "Exporting system env"
+[ -f "/opt/swiftbot/lib/swiftlib.tar.xz" ] && tar -xvf /opt/swiftbot/lib/swiftlib.tar.xz -C /opt/swiftbot/lib
+[ -f "/opt/swiftbot/lib/swiftlib.tar.xz" ] && rm -rf /opt/swiftbot/lib/swiftlib.tar.xz
+[ -f "/opt/swiftbot/plugins/plugins.tar.xz" ] && tar -xvf /opt/swiftbot/plugins/plugins.tar.xz -C /opt/swiftbot/plugins
+[ -f "/opt/swiftbot/plugins/plugins.tar.xz" ] && rm -rf /opt/swiftbot/plugins/plugins.tar.xz
+APPDIR="/opt/swiftbot/"
+export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:/opt/swiftbot/lib
+export PATH=$PATH:/opt/swiftbot/bin
+# [ -f "${APPDIR}config.conf" ] || cp ${APPDIR}config.conf.default ${APPDIR}config.conf
+# ldconfig
+# /opt/swiftbot/bin/swift-config
+echo "Installing and restarting services"
+# chown -R www-data:www-data ${APPDIR}html
+chown -R ${USER}:${USER} /opt/swiftbot
+systemctl daemon-reload
+systemctl restart swift-orderbooks-proxy 
+sleep 1
+systemctl restart swift-worker-settingshost swift-worker-logs swift-worker-balances swift-worker-orders
+sleep 2
+systemctl restart swift-bot swift-api

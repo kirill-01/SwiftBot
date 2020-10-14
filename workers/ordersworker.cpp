@@ -3,7 +3,7 @@
 #include "systemevent.h"
 #include <QStringList>
 #include <QNetworkInterface>
-#define APP_VERSION "2.0.2046"
+#define APP_VERSION "2.0.2059"
 #include <QVector>
 #include "arbitragemanager.h"
 #include "orderparams.h"

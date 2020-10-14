@@ -1,0 +1,19 @@
+[Unit]
+Description=Crossbar.io
+After=network.target
+
+[Service]
+Type=simple
+User=root
+Group=root
+StandardInput=null
+StandardOutput=journal
+StandardError=journal
+Environment="LD_LIBRARY_PATH=/opt/swiftbot/lib"
+ExecStart=/usr/local/bin/crossbar start --cbdir=/opt/swiftbot/crossbar/.crossbar
+ExecStop=/usr/local/bin/crossbar stop --cbdir=/opt/swiftbot/crossbar/.crossbar
+Restart=always
+RestartSec=3
+
+[Install]
+WantedBy=multi-user.target
