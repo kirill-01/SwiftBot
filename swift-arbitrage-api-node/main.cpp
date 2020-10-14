@@ -8,7 +8,7 @@
 #include <QNetworkInterface>
 
 #define APP_NAME "Swift exchange API node"
-#define APP_VERSION "2.0.2059"
+#define APP_VERSION "2.0.2061"
 
 #include <QLockFile>
 #include <QDir>

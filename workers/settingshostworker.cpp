@@ -13,7 +13,7 @@
 #include "sys/types.h"
 #include "sys/sysinfo.h"
 #include <QNetworkInterface>
-#define APP_VERSION "2.0.2059"
+#define APP_VERSION "2.0.2061"
 
 SettingsHostWorker::SettingsHostWorker(QObject *parent) : QObject(parent), service_active(true),assets(SwiftLib::getAssets()),_current_mode(0)
 {

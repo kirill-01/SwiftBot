@@ -6,7 +6,7 @@
 #include <orderbookskeeper.h>
 
 #define APP_NAME "Swift-bot-2"
-#define APP_VERSION "2.0.2059"
+#define APP_VERSION "2.0.2061"
 #include <QThread>
 #include <QHash>
 #include <QMap>
