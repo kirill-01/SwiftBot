@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/swift-bot.wiki.iml" filepath="$PROJECT_DIR$/.idea/swift-bot.wiki.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../SwiftBot.wiki/.idea/swift-bot.wiki.iml" filepath="$PROJECT_DIR$/../SwiftBot.wiki/.idea/swift-bot.wiki.iml" />
     </modules>
   </component>
 </project>
