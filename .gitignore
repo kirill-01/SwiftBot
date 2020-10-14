@@ -1,3 +1,4 @@
+*_log_*
 Makefile
 */Makefile
 */*/Makefile
@@ -15,3 +16,4 @@ opt/swiftbot/lib
 !build.sh
 *.deb
 SwiftBot.wiki
+.qmake.stash
