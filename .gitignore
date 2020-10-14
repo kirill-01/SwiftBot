@@ -11,4 +11,6 @@ opt/swiftbot/lib
 *.o
 */*.o
 */moc_*
-
+*.sh
+*.deb
+SwiftBot.wiki
