@@ -1,4 +1,4 @@
-#SWIFT.bot
+# SWIFT.bot
 
 [![GitHub release](https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://github.com/Wounderer/SwiftBot/releases)
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](http://perso.crans.org/besson/LICENSE.html)
