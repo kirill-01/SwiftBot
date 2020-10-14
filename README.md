@@ -1,8 +1,8 @@
 # SWIFT.bot - Automated trading system for cryptocurrency exchanges written in C++
 
-[![GitHub release](https://https://github.com/Wounderer/SwiftBot/wiki/https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://https://github.com/Wounderer/SwiftBot/wiki/https://github.com/Wounderer/SwiftBot/releases)
-[![GPLv3 license](https://https://github.com/Wounderer/SwiftBot/wiki/https://img.shields.io/badge/License-GPLv3-blue.svg)](https://https://github.com/Wounderer/SwiftBot/wiki/http://perso.crans.org/besson/LICENSE.html)
-[![Open Source? Yes!](https://https://github.com/Wounderer/SwiftBot/wiki/https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://https://github.com/Wounderer/SwiftBot/wiki/https://github.com/Naereen/badges/)
+[![GitHub release](https://github.com/Wounderer/SwiftBot/wiki/https://img.shields.io/github/release/Naereen/StrapDown.js.svg)](https://github.com/Wounderer/SwiftBot/wiki/https://github.com/Wounderer/SwiftBot/releases)
+[![GPLv3 license](https://github.com/Wounderer/SwiftBot/wiki/https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/Wounderer/SwiftBot/wiki/http://perso.crans.org/besson/LICENSE.html)
+[![Open Source? Yes!](https://github.com/Wounderer/SwiftBot/wiki/https://badgen.net/badge/Open%20Source%20%3F/Yes%21/blue?icon=github)](https://github.com/Wounderer/SwiftBot/wiki/https://github.com/Naereen/badges/)
 
 * Designed to run on a dedicated server
 * System security and anonymity are completely in your hands
@@ -19,7 +19,7 @@
 
 ---
 
-### [Security rules](https://https://github.com/Wounderer/SwiftBot/wiki/security) · [System requirements](https://https://github.com/Wounderer/SwiftBot/wiki/System_requirements) · [Installation](https://https://github.com/Wounderer/SwiftBot/wiki/Installation) · [API](https://https://github.com/Wounderer/SwiftBot/wiki/api_methods) · [License](https://https://github.com/Wounderer/SwiftBot/wiki/LICENSE) · [Support](https://https://github.com/Wounderer/SwiftBot/wiki/Support)
+### [Security rules](https://github.com/Wounderer/SwiftBot/wiki/security) · [System requirements](https://github.com/Wounderer/SwiftBot/wiki/System_requirements) · [Installation](https://github.com/Wounderer/SwiftBot/wiki/Installation) · [API](https://github.com/Wounderer/SwiftBot/wiki/api_methods) · [License](https://github.com/Wounderer/SwiftBot/wiki/LICENSE) · [Support](https://github.com/Wounderer/SwiftBot/wiki/Support)
 
 ---
 
@@ -29,23 +29,23 @@
 
 | Exchange   | API status | API version | Withdraw whitelists | IP whitelists | Exchange URL |
 | ------- | ------------------ | ---- | ---- | ---- | ---- |
-| [Bittrex](https://https://github.com/Wounderer/SwiftBot/wiki/bittrex) | :heavy_check_mark: | v1.0 | :heavy_check_mark: | :heavy_check_mark: | https://bittrex.com |
-| [Bitfinex](https://https://github.com/Wounderer/SwiftBot/wiki/bitfinex)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://bitfinex.com |
-| [Kraken](https://https://github.com/Wounderer/SwiftBot/wiki/kraken)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://kraken.com |
-| [KuCoin](https://https://github.com/Wounderer/SwiftBot/wiki/kucoin)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://kucoin.com |
-| [zb.com](https://https://github.com/Wounderer/SwiftBot/wiki/zb)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://zb.com |
-| [Binance](https://https://github.com/Wounderer/SwiftBot/wiki/binance) | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://binance.com |
-| [HitBTC](https://https://github.com/Wounderer/SwiftBot/wiki/hitbtc)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://hitbtc.com |
-| [Huobi](https://https://github.com/Wounderer/SwiftBot/wiki/huobi) | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://huobi.com |
-| [Cex.io](https://https://github.com/Wounderer/SwiftBot/wiki/cexio)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://cex.io |
-| [Exmo](https://https://github.com/Wounderer/SwiftBot/wiki/exmo)  | :heavy_check_mark: | v1.0| :heavy_multiplication_x: | :heavy_multiplication_x: | https://exmo.me |
-| [Livecoin](https://https://github.com/Wounderer/SwiftBot/wiki/livecoin)  | :heavy_check_mark: | v1.0| :heavy_multiplication_x: | :heavy_check_mark: | https://livecoin.ru |
-| [OkCoin](https://https://github.com/Wounderer/SwiftBot/wiki/okcoin)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://okcoin.com |
-| [LakeBTC](https://https://github.com/Wounderer/SwiftBot/wiki/lakebtc) | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://lakebtc.com |
-| [LBank](https://https://github.com/Wounderer/SwiftBot/wiki/lbank) | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://lbank.com |
+| [Bittrex](https://github.com/Wounderer/SwiftBot/wiki/bittrex) | :heavy_check_mark: | v1.0 | :heavy_check_mark: | :heavy_check_mark: | https://bittrex.com |
+| [Bitfinex](https://github.com/Wounderer/SwiftBot/wiki/bitfinex)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://bitfinex.com |
+| [Kraken](https://github.com/Wounderer/SwiftBot/wiki/kraken)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://kraken.com |
+| [KuCoin](https://github.com/Wounderer/SwiftBot/wiki/kucoin)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://kucoin.com |
+| [zb.com](https://github.com/Wounderer/SwiftBot/wiki/zb)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://zb.com |
+| [Binance](https://github.com/Wounderer/SwiftBot/wiki/binance) | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://binance.com |
+| [HitBTC](https://github.com/Wounderer/SwiftBot/wiki/hitbtc)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://hitbtc.com |
+| [Huobi](https://github.com/Wounderer/SwiftBot/wiki/huobi) | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://huobi.com |
+| [Cex.io](https://github.com/Wounderer/SwiftBot/wiki/cexio)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://cex.io |
+| [Exmo](https://github.com/Wounderer/SwiftBot/wiki/exmo)  | :heavy_check_mark: | v1.0| :heavy_multiplication_x: | :heavy_multiplication_x: | https://exmo.me |
+| [Livecoin](https://github.com/Wounderer/SwiftBot/wiki/livecoin)  | :heavy_check_mark: | v1.0| :heavy_multiplication_x: | :heavy_check_mark: | https://livecoin.ru |
+| [OkCoin](https://github.com/Wounderer/SwiftBot/wiki/okcoin)  | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://okcoin.com |
+| [LakeBTC](https://github.com/Wounderer/SwiftBot/wiki/lakebtc) | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://lakebtc.com |
+| [LBank](https://github.com/Wounderer/SwiftBot/wiki/lbank) | :heavy_check_mark: | v1.0| :heavy_check_mark: | :heavy_check_mark: | https://lbank.com |
 
 
-### [Security settings recommendations](https://https://github.com/Wounderer/SwiftBot/wiki/exchanges_security)
+### [Security settings recommendations](https://github.com/Wounderer/SwiftBot/wiki/exchanges_security)
 
 --- 
 
@@ -53,34 +53,34 @@
 
 Out of the box SWIFT.bot can use two main arbitrage strategies
 
-### [Classic inter-exchange arbitrage](https://https://github.com/Wounderer/SwiftBot/wiki/classic)
-### [Statistical inter-exchange arbitrage](https://https://github.com/Wounderer/SwiftBot/wiki/statistical)
+### [Classic inter-exchange arbitrage](https://github.com/Wounderer/SwiftBot/wiki/classic)
+### [Statistical inter-exchange arbitrage](https://github.com/Wounderer/SwiftBot/wiki/statistical)
 
-By using SWIFT.bot **[API interface](https://https://github.com/Wounderer/SwiftBot/wiki/api_methods)**, you can create your own trading systems on top of the system to implement any other trading algorithms in the shortest possible time.
+By using SWIFT.bot **[API interface](https://github.com/Wounderer/SwiftBot/wiki/api_methods)**, you can create your own trading systems on top of the system to implement any other trading algorithms in the shortest possible time.
 
 ---
 
 ## System
 
-### [Building from sources](https://https://github.com/Wounderer/SwiftBot/wiki/build_from_source)
+### [Building from sources](https://github.com/Wounderer/SwiftBot/wiki/build_from_source)
 
-### [Settings](https://https://github.com/Wounderer/SwiftBot/wiki/Settings)
+### [Settings](https://github.com/Wounderer/SwiftBot/wiki/Settings)
 
-### [Best practice](https://https://github.com/Wounderer/SwiftBot/wiki/Best_practice)
+### [Best practice](https://github.com/Wounderer/SwiftBot/wiki/Best_practice)
 
 ---
 
 ## API interfaces
 
-### [Configuring API server](https://https://github.com/Wounderer/SwiftBot/wiki/api_config)
+### [Configuring API server](https://github.com/Wounderer/SwiftBot/wiki/api_config)
 
-### [API usage examples](https://https://github.com/Wounderer/SwiftBot/wiki/api_examples)
+### [API usage examples](https://github.com/Wounderer/SwiftBot/wiki/api_examples)
 
 ---
 
 ## Contribution
 
-### [Implementing new exchange API interface](https://https://github.com/Wounderer/SwiftBot/wiki/implement_api)
+### [Implementing new exchange API interface](https://github.com/Wounderer/SwiftBot/wiki/implement_api)
 
 ---
 
@@ -88,12 +88,12 @@ By using SWIFT.bot **[API interface](https://https://github.com/Wounderer/SwiftB
 
 In current release, android 8.1+ is required!
 
-### [Download android app](https://https://github.com/Wounderer/SwiftBot/wiki/https://github.com/Wounderer/SwiftBot/releases/download/v2.0.2046/swift2.apk)
-### [Configure android app and connect it to server](https://https://github.com/Wounderer/SwiftBot/wiki/android_manual)
+### [Download android app](https://github.com/Wounderer/SwiftBot/wiki/https://github.com/Wounderer/SwiftBot/releases/download/v2.0.2046/swift2.apk)
+### [Configure android app and connect it to server](https://github.com/Wounderer/SwiftBot/wiki/android_manual)
 
 ## Contacts
 
 ### Author
 Email: **kirill.kkn@gmail.com**
 
-GitHub: [Wounderer](https://https://github.com/Wounderer/SwiftBot/wiki/https://github.com/Wounderer)
+GitHub: [Wounderer](https://github.com/Wounderer/SwiftBot/wiki/https://github.com/Wounderer)
