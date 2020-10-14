@@ -1,6 +1,6 @@
 # SWIFT.Bot
 
-## [Documentation](wiki/Home)
+## [Documentation](https://github.com/Wounderer/SwiftBot/wiki/Home)
 
 
 
